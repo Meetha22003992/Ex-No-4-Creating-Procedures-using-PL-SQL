@@ -34,8 +34,9 @@ mysql> SELECT * FROM employee;
 ```
 
 ### Output:
-![image](https://github.com/Meetha22003992/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119401038/21408d89-8d6f-46fb-b326-ca1532d5c02e)
+![image](https://github.com/Meetha22003992/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119401038/acbff79e-8c9a-41ea-975c-40f16f600593)
 
+![image](https://github.com/Meetha22003992/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119401038/73138b13-1518-4c62-b3f6-37fdf7289cde)
 
 ### Result:
 Thus the procedure has been successfully created in mysql
