@@ -11,7 +11,31 @@
 6. Display the employee table
 
 ### Program:
+```
+CREATE TABLE employee ( empid INT, empname VARCHAR(10),dept VARCHAR(10),salary FLOAT );
+
+CREATE PROCEDURE insert_employee_data (
+         p_empid INT,
+         p_empname VARCHAR(10),
+         p_dept VARCHAR(10),
+         p_salary DECIMAL(10, 2)
+     )
+     BEGIN
+         INSERT INTO employee (empid, empname, dept, salary)
+         VALUES (p_empid, p_empname, p_dept, p_salary);
+     END //
+
+DELIMITER ;
+mysql> CALL insert_employee_data(1, 'John', 'HR', 50000.00);
+mysql> CALL insert_employee_data(2, 'Alice', 'Finance', 60000.00);
+mysql> CALL insert_employee_data(3, 'Bob', 'IT', 55000.00);
+
+mysql> SELECT * FROM employee;
+```
 
 ### Output:
+![image](https://github.com/Meetha22003992/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119401038/21408d89-8d6f-46fb-b326-ca1532d5c02e)
+
 
 ### Result:
+Thus the procedure has been successfully created in mysql
