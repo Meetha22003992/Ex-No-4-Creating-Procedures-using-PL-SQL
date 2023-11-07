@@ -13,7 +13,7 @@
 6. Display the employee table
 
 ### Program:
-
+```
 CREATE TABLE employee ( empid INT, empname VARCHAR(10),dept VARCHAR(10),salary FLOAT );
 
 CREATE PROCEDURE insert_employee_data (
@@ -33,7 +33,7 @@ mysql> CALL insert_employee_data(2, 'Alice', 'Finance', 60000.00);
 mysql> CALL insert_employee_data(3, 'Bob', 'IT', 55000.00);
 
 mysql> SELECT * FROM employee;
-
+```
 
 ### Output:
 ![image](https://github.com/Meetha22003992/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119401038/acbff79e-8c9a-41ea-975c-40f16f600593)
